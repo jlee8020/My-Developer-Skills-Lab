@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+  }
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10vm;
+    height: 20vm;
+    border: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    align-content: center;
+}
+.jumbotron {
+    display: flex;
+    background-color: rgb(158,194,133);
+    color: whitesmoke;
+    position: center;
+    border: none;
+    background-size: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 10px;
+}
+.skills {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative; 
+}
+.frm{
+    border: solid rgb(158,194,133);
+    width: 75%;
+    margin-left: 0;
+}
+.btn2{
+    border: solid rgb(158,194,133);
+    width: 25%;
+    margin-right: 1vm;
+    font: arial;
+}
+.textInput{
+    box-sizing: content-box;
+    width: 99%;
+    height: 85%;
+}
+.btn{
+    border: solid rgb(230, 93, 39);
+    background: cover;
+    background-color: rgb(230, 93, 39); 
+    color: white;
+}
+td{
+    color: orange;
+}
+
